@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>DIARIO</title>
+</head>
+<body>
+<h1>Bienvenidos al diario interactivo!</h1>
+<hr>
+<div id="container">
+<form>
+		<label>Títulos</label><br>
+		<input id="tituloForm" type="text" placeholder="Agrega un título"><br>
+		<label>Cuerpo de la noticia</label><br>
+		<textarea id="contenidoForm" rows="10" cols="50" placeholder="Introduzca noticia"></textarea><br>	
+		<input type="button" id="add" value="Cargar">
+		<input type="button" id="show" value="Mostrar">
+	</form>
+	<div class="notiUnder"></div>
+</div>
+<hr>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+
+</html>
